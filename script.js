@@ -12,7 +12,7 @@ document.getElementById("love-form").addEventListener("submit", function (e) {
     }
 
     // Generate a random percentage between 1 and 100
-    const lovePercentage = Math.floor(Math.random() * 100) + 1;
+    const lovePercentage = Math.floor(Math.random() * 21) + 80;
 
     // Generate a message based on the percentage
     let message = "";
